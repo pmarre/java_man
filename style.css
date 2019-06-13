@@ -55,6 +55,7 @@
     width: 0;
     height: 10vh;
     background-color: gainsboro;
+    transition: all .5s;
     
 }
 
