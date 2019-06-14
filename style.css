@@ -28,6 +28,15 @@
     text-align: center;
 }
 
+.month {
+    position: absolute;
+    bottom: 0px;
+    right: 5vw;
+    font-size: 5rem;
+    transform: translate(-50%, 50%);
+    text-transform: uppercase;
+}
+
 /* --- MOBILE MENU --- */
 
 .mobile-nav__container {
@@ -66,4 +75,12 @@
     transform: translate(-50%, -50%);
     text-align: center;
     display: none;
+}
+
+/* --- FOOTER --- */
+
+.footer {
+    background-color: coral;
+    width: 100%;
+    height: 100vh;
 }
