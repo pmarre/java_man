@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Bitter', serif;
 }
 
 .container {
@@ -15,7 +16,7 @@
 
 .hero-image {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-color: #B29E8A;
     position: relative;
 }
@@ -26,6 +27,28 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 80vw;
+    
+}
+
+.hero-image__heading {
+    display: none;
+    font-family: "Rock Salt", cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hero-image__quote {
+    display: none;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hero-image__menu-cta {
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
 }
 
 .month {
@@ -35,6 +58,39 @@
     font-size: 5rem;
     transform: translate(-50%, 50%);
     text-transform: uppercase;
+}
+
+.about-java-man__text {
+    margin: 60px 0;
+    height: auto;
+}
+.about-java-man__heading {
+    display: none;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 2px;
+}
+
+.about-java-man__p {
+    display: none;
+    width: 60vw;
+    margin: 20px auto;
+    text-align: center;
+}
+.about-image__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-image {
+    width: 25vw;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+    align-self: center;
 }
 
 /* --- MOBILE MENU --- */
@@ -82,5 +138,5 @@
 .footer {
     background-color: coral;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
 }
