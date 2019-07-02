@@ -13,9 +13,6 @@
     <title>Java Man</title>
   </head>
   <body>
-    <video autoplay muted loop>
-      <source src="coffee.mp4" type="video/mp4" />
-    </video>
     <header class="hero-image">
       <div class="mobile-nav__container">
         <div class="mobile-nav__icon">
@@ -23,7 +20,7 @@
           <div class="mobile-nav__bar"></div>
           <div class="mobile-nav__bar"></div>
         </div>
-        <div class="mobile-nav__logo">LOGO</div>
+        <div class="mobile-nav__logo">JavaMan</div>
       </div>
       <nav class="mobile-menu__container mobile-menu__overlay">
         <ul class="mobile-menu__menu">
@@ -40,11 +37,10 @@
             >Our coffee is so good, we drink it ourselves</q
           >
           <div class="hero-image__cta">
-            <button class="hero-image__menu-cta">See Our Menu</button>
+            <a href="#menu" class="hero-image__menu-cta">See our menu</a>
           </div>
         </div>
       </div>
-      <!-- <h2 class="month"></h2> -->
     </header>
     <section class="about-java-man">
       <div class="container">
@@ -78,7 +74,7 @@
     </section>
     <section class="menu container">
       <div class="menu__header">
-        <h2 class="menu__heading">Menu</h2>
+        <h2 id="menu" class="menu__heading">Menu</h2>
       </div>
       <div class="tab">
         <button class="tabLink active" onclick="openMenu(event, 'drinks')">
